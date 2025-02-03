@@ -4,4 +4,4 @@
 .config/
 logs/
 output/
-data/**/
+data/
