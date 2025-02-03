@@ -1,0 +1,6 @@
+.root
+.env
+.config/
+logs/
+output/
+data/**/*/
