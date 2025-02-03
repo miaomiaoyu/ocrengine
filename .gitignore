@@ -4,3 +4,4 @@
 logs/
 output/
 data/**/*/
+git remote add origin www.github.com/miaomiaoyu/GlyphNet
