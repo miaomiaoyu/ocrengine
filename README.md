@@ -97,4 +97,4 @@ model.eval()
 
 ## Acknowledgments
 
-This project utilizes TMNIST glyph data for character recognition research and experimentation.
+This project utilizes TMNIST glyph data, available for download [**here**](https://www.kaggle.com/datasets/nimishmagre/tmnist-glyphs-1812-characters). This dataset contains over 500,000 images and is part of the Warhol.ai Computational Creativity and Congnitive Type projects.
