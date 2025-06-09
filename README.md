@@ -1,4 +1,4 @@
-# GlyphNet Model
+# CharacterFinder
 
 ## Overview
 This repository contains a PyTorch-based model designed to classify characters from the TMNIST dataset. The model processes grayscale 28x28 images and predicts the corresponding character label. The training pipeline leverages convolutional neural networks (CNNs) to learn effective feature representations.

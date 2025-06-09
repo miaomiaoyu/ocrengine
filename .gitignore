@@ -1,8 +1,7 @@
 # Ignore environment files
 .root
 .env
-.secrets/
-.config/
+*.egg-info
 
 # Ignore Git-related files
 .git/
@@ -21,8 +20,7 @@ __pycache__/
 .DS_Store
 */.DS_Store
 
-# Ignore output directories 
-output/
+# Ignore input and output directories 
 data/
 
 # Ignore logs and temporary files
@@ -30,6 +28,7 @@ logs/
 *.log
 *.out
 *.err
+
 
 # Ignore cache files
 *.cache
