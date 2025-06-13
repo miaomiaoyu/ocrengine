@@ -69,6 +69,7 @@ def main():
 
     # Also create a symlink to the latest model
     latest_dir = os.path.join("models", "testing", "latest")
+    os.makedirs(latest_dir, exist_ok=True)
     if os.path.exists(latest_dir):
         if os.path.islink(latest_dir):
             os.unlink(latest_dir)
@@ -76,6 +77,7 @@ def main():
             import shutil
 
             shutil.rmtree(latest_dir)
+    os.makedirs(latest_dir, exist_ok=True)
 
     # Model training and validation
     configs = get_configs()
